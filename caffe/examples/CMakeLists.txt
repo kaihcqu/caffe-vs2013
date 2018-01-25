@@ -6,7 +6,7 @@ foreach(source ${EXAMPLES_SOURCES})
     #    get file name
     get_filename_component(name ${source} NAME_WE)  
     
-    #get folder name
+  
     get_filename_component(path ${source} PATH)      
     get_filename_component(folder ${path} NAME_WE)      
     
